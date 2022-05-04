@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Box, Container } from "@chakra-ui/react";
 
 // eslint-disable-next-line no-unused-vars
-const Main = ({ children, _router }) => {
+const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
